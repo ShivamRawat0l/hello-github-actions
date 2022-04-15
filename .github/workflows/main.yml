@@ -1,0 +1,2 @@
+name: A workflow file
+on: push
