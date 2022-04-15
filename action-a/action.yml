@@ -1,0 +1,18 @@
+name : "ACTION A YAML"
+description : "This is the first action" 
+author : "ShivamRawat0l" 
+
+inputs: 
+  MY_NAME:
+    description : "Input desciprtion"
+    required: true
+    default : "World" 
+   
+   
+runs: 
+  using: "docker"
+  image: "DockerFile" 
+
+branding: 
+  icon: "mic"
+  color: "purple"
